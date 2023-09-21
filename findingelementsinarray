@@ -1,0 +1,19 @@
+public class Main{
+    public static void main(String[] args){
+        float[] marks = {12.34f, 12.43f, 23.43f, 87.76f};
+        float num = 12.34f;
+        boolean isInArray = false;
+        for(float element:marks){
+            if(num==element){
+                isInArray = true;
+                break;
+            }
+        }
+        if(isInArray){
+            System.out.println("value is present");
+        }
+        else{
+            System.out.println("value not present");
+        }
+    }
+}
