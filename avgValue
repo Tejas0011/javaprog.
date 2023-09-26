@@ -1,0 +1,10 @@
+public class Main{
+    public static void main(String[] args){
+        int[] marks = {12,23,33,11,32};
+        int sum = 0;
+        for(int element:marks){
+            sum = sum + element;
+        }
+        System.out.println("Avg. value is " + sum/marks.length);
+    }
+}
